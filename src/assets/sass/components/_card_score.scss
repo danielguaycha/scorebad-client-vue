@@ -1,0 +1,45 @@
+.card-score {
+  background: white;
+  margin-bottom: 1rem;
+  border: 1px solid $gray-200;
+  border-radius: 7px;
+
+  .card-score-img {
+    background-color: $gray-300;
+    background-position: center;
+    height: 155px;
+    width: 100%;
+    background-size: cover;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  .card-score-body {
+    padding: 1rem;
+    h4 {
+      transition: all .3s ease;
+      font-size: 1.1em;
+      color: darken($primary, 20);
+    }
+    .extra {
+      display: flex;
+      justify-content: space-between;
+      small {
+        font-size: .8em;
+        display: flex;
+        align-items: center;
+        color: $gray-500;
+        svg {
+          margin-right: .5rem;
+        }
+      }
+    }
+  }
+
+  &:hover {
+    .card-score-body h4 {
+      color: $secondary;
+      cursor: pointer;
+    }
+  }
+}

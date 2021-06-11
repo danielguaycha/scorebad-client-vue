@@ -1,0 +1,21 @@
+.video-embed-container {
+  display: grid;
+  @include tablet {
+    grid-template: auto / repeat(2, 1fr);
+  }
+  gap: 10px;
+  .video-embed {
+    &:first-child {
+      grid-column-start: 1;
+      grid-column-end: 3;
+    }
+  }
+  iframe {
+    overflow: hidden;
+    height: 900px !important;
+    html {
+      overflow: hidden;
+    }
+  }
+}
+

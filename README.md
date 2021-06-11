@@ -1,4 +1,4 @@
-# scorebad-client
+# ScoreBar Client
 
 ## Project setup
 ```
@@ -14,11 +14,7 @@ npm run serve
 ```
 npm run build
 ```
-
-### Lints and fixes files
+### Compiling Sass
+```bash
+    npm run styles
 ```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
